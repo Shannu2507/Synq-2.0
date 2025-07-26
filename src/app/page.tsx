@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import App from "../App"
+import App from "./App"; // ✅ same folder now
 
-export default function HomePage() {
-  return <App />
+export default function Page() {
+  return <App />;
 }
